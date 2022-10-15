@@ -1,0 +1,35 @@
+1. Avoid Blocking Sleep Calls
+    Use always Implicit wait or Explicit wait.
+
+2. Name the Test Cases & Test Suites Appropriately
+
+3. Set the Browser Zoom Level to 100 percent
+    driver.execute_script("document.body.style.zoom='100 %'")
+
+4. Maximize the Browser Window
+    driver.maximize_window()
+
+5. Choose the Best-Suited Web Locator
+    CSS locator >> XPATH locator
+
+6. Implement Logging and Reporting
+    Reporting usar allure
+
+7. Use Design Patterns and Principles i.e. Page Object Model (POM)
+
+8. Follow a Uniform Directory Structure
+
+9.  Use Data-Driven Testing for Parameterization
+        Usar fixtures.
+
+10. Do Not Use a Single Driver Implementation
+        Probar en Crhome y Firefox.
+
+11. Use Assert and Verify in Appropriate Scenarios
+        Solo un assert por prueba
+
+12. Avoid Code Duplication
+        Usar Wrapping Selenium calls
+
+13. Leverage Parallel Testing in Selenium
+
